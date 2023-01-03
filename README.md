@@ -28,10 +28,10 @@ remotes::install_github("mojaveazure/seurat-disk")
 
 ## Before starting
 
-Change the paths to files provided in the script
-- cellMarker_path = PATH to TME_markerGenes.xlsx
-- chetahClassifier_path = PATH to CHETAH_reference_updatedAnnotation.RData
-- cellOntology_path = PATH to cell_ontology.xlsx
+Make sure following files are in the "ressources" folder:
+- TME_markerGenes.xlsx ; list of marker genes for each cell type
+- CHETAH_reference_updatedAnnotation.RData ; CHETA reference used for annotation
+- cell_ontology.xlsx ; cell ontologies for all annotated cell types
 
 ## Run scProcessor
 The core of scProcessor are three processing scripts.

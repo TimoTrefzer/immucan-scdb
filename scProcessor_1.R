@@ -1,8 +1,8 @@
 #!/usr/bin/env Rscript
 args = commandArgs(trailingOnly=TRUE)
 data = "out/data.json" #If data is already normalized or not, stored by check_seurat.R
-cellMarker_path = "/home/jordi_camps/IMMUcan/TME_markerGenes.xlsx"
-chetahClassifier_path = "/home/jordi_camps/IMMUcan/CHETAH_reference_updatedAnnotation.RData"
+cellMarker_path = "ressources/TME_markerGenes.xlsx"
+chetahClassifier_path = "ressources/CHETAH_reference_updatedAnnotation.RData"
 uGene_clust = 20
 verbose = FALSE
 if (!dir.exists("temp")) {dir.create("temp")}

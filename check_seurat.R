@@ -3,7 +3,7 @@ args = commandArgs(trailingOnly=TRUE)
 seurat_obj = args[1] #path of seurat object
 batch_var = args[2] #batch variable if known
 verbose = FALSE
-tidy_metadata_path <- "/home/jordi_camps/IMMUcan/tidy_metadata.xlsx"
+tidy_metadata_path <- "ressources/tidy_metadata.xlsx"
 
 dir <- getwd()
 setwd(dir)

@@ -8,7 +8,7 @@ library(Seurat)
 library(dplyr)
 library(ggplot2)
 library(SingleCellExperiment)
-load("CHETAH_TME_reference.Rdata")
+load("ressources/CHETAH_TME_reference.Rdata")
 ```
 
 ```{r}
