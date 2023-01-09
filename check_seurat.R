@@ -5,6 +5,12 @@ batch_var = args[2] #batch variable if known
 verbose = FALSE
 tidy_metadata_path <- "ressources/tidy_metadata.xlsx"
 
+
+###### DELETE #######
+seurat_obj <- "../data/raw/GSE148071/GSE148071_seurat.rds" 
+batch_var <- "pid"
+######################
+
 dir <- getwd()
 setwd(dir)
 print(dir)
